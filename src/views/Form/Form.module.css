@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    place-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: var(--color-dark);
+    height: calc(100vh - 80px);
+}
+
+.h2 {
+    font-size: 1.4rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    margin-top: 1.5rem;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-weight: 600;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+p {
+    color: red;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,19 @@
+.center{
+    display: flex;
+    justify-content: center;
+};
+
+ button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    border: none;
+    background-color: #1b1a1d;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;    
+  }
+  .activeButton {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }

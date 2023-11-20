@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-direction: row;
+  margin-top: -10px;
+  gap: 2rem;
+}
+
+.box_filter {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  background: transparent;
+  display: grid;
+  place-content: center;
+}
+
+.btn button {
+  padding: .7rem;
+  border-radius: 9px;
+  color: var(--color-dark);
+  border: 2px solid var(--color-light);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn button:hover {
+  transform: scale(1.1);
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--color-light);
+}

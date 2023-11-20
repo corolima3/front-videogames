@@ -1,0 +1,12 @@
+.loading {
+    display: grid;
+    place-items: center;
+    background-color: #000;
+    height: calc(100vh - 80px);
+    min-width: 100vw
+}
+
+.loading img {
+    width: 600px;
+    margin: 0 auto;
+}

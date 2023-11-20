@@ -1,0 +1,33 @@
+.Nav {
+  background-color: var(--color-dark);
+  height: 80px;
+  border-bottom: 2px solid var(--color-light);
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.Nav li {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 20px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.Nav li ul a {
+  text-decoration: none;
+  color: var(--color-light);
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Nav li ul a:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  transition: var(--transition);
+}

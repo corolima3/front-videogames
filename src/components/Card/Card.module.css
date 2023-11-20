@@ -1,0 +1,42 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  color: white;
+  width: 15vw;
+  height: 38vh;
+  margin: 3vh;
+  border-radius: 2px;
+
+  background-color: rgb(106, 110, 106);
+  box-shadow: 2px 2px 10px black;
+  position: relative;
+}
+
+.cardContainer:hover {
+  color: black;
+  background-color: #f7f8ffcc;
+}
+
+.cardContainer span {
+  display: flex;
+  align-items: center;
+}
+
+.imagen {
+  width: 80%;
+  height: 50%;
+
+}
+
+.fontFamily {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px
+}
